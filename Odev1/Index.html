@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>odev1</title>
+</head>
+<body>
+
+
+<div class="container">
+<div class="header">
+    <h2 class="title">Kedi Bulmaca</h2>
+    <p class="description">Kapali kartlarin ardindaki kediyi bul! 2 hakkin var.</p>
+        </div>
+        <div class="cards">
+            <div id="card1" class="card" onclick="game1()"></div>
+            <div id="card2" class="card" onclick="game2()"></div>
+            <div id="card3" class="card" onclick="game3()"></div>       
+        </div>
+
+        <div class="footer">
+            <p id="alanId" class="description"><span style="background-color: green;">Kedi kartını bulmak için kartın üzerine tıklamalısın.</span></p>
+            <p id="kazandiId" class="description" style="display: none;"><span style="background-color: green;">
+                Kazandın! Yeni oyun icin <a href="index.html">buraya </a> tikla.</span></p>
+            <p id="kaybettiId" class="description" style="display: none;">
+            <span style="background-color: rgb(128, 36, 0);">Kaybettin... Yeni bir oyun oynamak icin <a href="index.html">buraya</a> tikla.</span></p>
+        </div>
+    </div> 
+
+    <script src="kod.js"></script>
+</body> 
+</html>

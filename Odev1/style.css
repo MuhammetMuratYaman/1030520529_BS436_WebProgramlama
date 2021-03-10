@@ -1,0 +1,43 @@
+.container {
+    background-color: rgb(185, 94, 94);
+    height: 500px;
+}
+
+p.description {
+    text-align: center;
+}
+ 
+.cards {
+    float:left;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.card {
+    float:left;
+    background-image: url("img/card.jpg");
+    width: 170px;
+    height: 200px; 
+    margin-left: 20px;
+}
+
+.card-kedi {
+    float:left;
+    width: 170px;
+    height: 200px;
+    margin-left: 25px;
+    background-image: url("img/kedi.png");
+}
+
+.card-kopek{
+    float:left;
+    width: 170px;
+    height: 200px;
+    margin-left: 25px;
+    background-image: url("img/kopek.jpg");
+}

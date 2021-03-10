@@ -1,12 +1,7 @@
 .container {
-    background-color: rgb(185, 94, 94);
+    background-color: rgb(185, 142, 94);
     height: 500px;
 }
-
-p.description {
-    text-align: center;
-}
- 
 .cards {
     float:left;
     width: 100%;
@@ -26,14 +21,6 @@ p.description {
     margin-left: 20px;
 }
 
-.card-kedi {
-    float:left;
-    width: 170px;
-    height: 200px;
-    margin-left: 25px;
-    background-image: url("img/kedi.png");
-}
-
 .card-kopek{
     float:left;
     width: 170px;
@@ -41,3 +28,12 @@ p.description {
     margin-left: 25px;
     background-image: url("img/kopek.jpg");
 }
+p.description {
+    text-align: center;
+}
+
+h2.title {
+    text-align: center;
+    width: 100%;
+}
+ 

@@ -5,19 +5,19 @@ const alan = document.getElementById('alanId');
 const kazandi = document.getElementById('kazandiId');
 const kaybetti = document.getElementById('kaybettiId');
 
-const card1 = document.getElementById('card1');
-const card2 = document.getElementById('card2');
-const card3 = document.getElementById('card3');
+const kart1 = document.getElementById('kart1');
+const kart2 = document.getElementById('kart2');
+const kart3 = document.getElementById('kart3');
 
 var catIndex = Math.floor(Math.random() * 3)
 
 function game1() {
 
     if (catIndex == 0) {
-        card1.setAttribute('class', 'card-kedi');
+        kart1.setAttribute('class', 'card-kedi');
         isFinished = true;
     } else {
-        card1.setAttribute('class', 'card-kopek');
+        kart1.setAttribute('class', 'card-kopek');
         count++;
     }
 
@@ -25,56 +25,58 @@ function game1() {
         isFinished = true;
     }
 
-    if (isFinished && count < 2) {
+    if 
+    (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
-    } else if (isFinished && count >= 2) {
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
+    }
+     else if 
+    (isFinished && count >= 2) {
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
     } 
 }
 
 function game2() {
     if (catIndex == 1) {
-        card2.setAttribute('class', 'card-kedi');
+        kart2.setAttribute('class', 'card-kedi');
         isFinished = true;
     } else {
-        card2.setAttribute('class', 'card-kopek');
+        kart2.setAttribute('class', 'card-kopek');
         count++;
     }
 
     if (count == 2) {
         isFinished = true;
     }
-
     if (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
     } else if (isFinished && count >= 2) {
         console.log('Kaybetti');
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
     } 
 }
 
 function game3() {
     if (catIndex == 2) {
-        card3.setAttribute('class', 'card-kedi');
+        kart3.setAttribute('class', 'card-kedi');
         isFinished = true;
     } else {
-        card3.setAttribute('class', 'card-kopek');
+        kart3.setAttribute('class', 'card-kopek');
         count++;
     }
 
@@ -85,14 +87,14 @@ function game3() {
     if (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
     } else if (isFinished && count >= 2) {
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        card1.style.pointerEvents = "none";
-        card2.style.pointerEvents = "none";
-        card3.style.pointerEvents = "none";
+        kart1.style.pointerEvents = "none";
+        kart2.style.pointerEvents = "none";
+        kart3.style.pointerEvents = "none";
     } 
 }

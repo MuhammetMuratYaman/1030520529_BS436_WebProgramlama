@@ -29,17 +29,13 @@ function game1() {
     (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+   
     }
      else if 
     (isFinished && count >= 2) {
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+        
     } 
 }
 
@@ -58,16 +54,12 @@ function game2() {
     if (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+       
     } else if (isFinished && count >= 2) {
         console.log('Kaybetti');
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+    
     } 
 }
 
@@ -87,14 +79,10 @@ function game3() {
     if (isFinished && count < 2) {
         alan.style.display = "none";
         kazandi.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+       
     } else if (isFinished && count >= 2) {
         alan.style.display = "none";
         kaybetti.style.display = "block";
-        kart1.style.pointerEvents = "none";
-        kart2.style.pointerEvents = "none";
-        kart3.style.pointerEvents = "none";
+      
     } 
 }

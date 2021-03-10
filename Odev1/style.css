@@ -28,6 +28,14 @@
     margin-left: 25px;
     background-image: url("img/kopek.jpg");
 }
+.card-kedi{
+    float:left;
+    width: 170px;
+    height: 200px;
+    margin-left: 25px;
+    background-image: url("img/kedi.png");
+}
+
 p.description {
     text-align: center;
 }
